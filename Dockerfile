@@ -1,7 +1,7 @@
-FROM koyeung/armhf-node:5.8.0
+FROM koyeung/armhf-node:6.0.0
 MAINTAINER King-On Yeung <koyeung@gmail.com>
 
-ENV NODERED_VERSION 0.13.3
+ENV NODERED_VERSION 0.13.4
 ENV NODE_MAX_OLD_SPACE_SIZE 128
 
 RUN npm install -g node-red@${NODERED_VERSION}
